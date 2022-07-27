@@ -1,0 +1,31 @@
+{
+  "name": "hapi-mysql-swagger-boilerplate",
+  "version": "1.0.0",
+  "description": "一个使用 hapi 的简单样板",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "onchange -i -k '**/*.js' -- npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:biallo/hapi-mysql-swagger-boilerplate.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/inert": "^6.0.4",
+    "@hapi/vision": "^6.1.0",
+    "axios": "^0.25.0",
+    "dotenv": "^10.0.0",
+    "hapi-auth-jwt2": "^10.2.0",
+    "hapi-plugin-mysql": "^7.2.6",
+    "hapi-swagger": "^14.2.4",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.7.7"
+  },
+  "devDependencies": {
+    "onchange": "^7.1.0"
+  }
+}
