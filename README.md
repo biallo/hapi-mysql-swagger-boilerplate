@@ -2,10 +2,10 @@
 一个使用 hapi 的简单样板
 
 ## 项目依赖
-<a href="https://hapi.dev" target="_blank">hapi</a>
-<a href="https://github.com/hapi-swagger/hapi-swagger" target="_blank">hapi-swagger</a>
-<a href="https://github.com/auth0/node-jsonwebtoken" target="_blank">jsonwebtoken</a>
-<a href="https://nodemailer.com/about/">nodemailer</a>
+- <a href="https://hapi.dev" target="_blank">hapi</a>
+- <a href="https://github.com/hapi-swagger/hapi-swagger" target="_blank">hapi-swagger</a>
+- <a href="https://github.com/auth0/node-jsonwebtoken" target="_blank">jsonwebtoken</a>
+- <a href="https://nodemailer.com/about/">nodemailer</a>
 
 ## 环境依赖
 确保环境中的 node.js 版本不低于 v14
