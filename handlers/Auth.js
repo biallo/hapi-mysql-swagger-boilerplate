@@ -1,5 +1,6 @@
 const Jwt = require('jsonwebtoken');
 const { sendMail } = require('../utils/Mailer');
+const { USER_SCOPE } = require('../utils/Constants');
 require('dotenv').config();
 
 // 登录
@@ -20,7 +21,7 @@ exports.login = async (request, h) => {
   const result = [{
     scope: 1,
     email: 'xxx@xxx.xxx',
-    pwd: 'xxxxxx',
+    pwd: 'xxxxxxxx',
     name: 'xxx'
   }];
 
