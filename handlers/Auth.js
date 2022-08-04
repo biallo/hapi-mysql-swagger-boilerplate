@@ -19,10 +19,12 @@ exports.login = async (request, h) => {
 
   // fake result
   const result = [{
-    scope: 1,
+    id: 111,
     email: 'xxx@xxx.xxx',
     pwd: 'xxxxxxxx',
-    name: 'xxx'
+    name: 'xxx',
+    scope: 1,
+    created_time: '2022-01-01T11:11:11.000Z'
   }];
 
   if (result.length < 1) {
