@@ -2,6 +2,11 @@
 
 A boilerplate using Hapi
 
+## Language
+
+- [中文](README.zh.md)
+- English
+
 ## Project dependencies
 
 - [Hapi](https://hapi.dev)

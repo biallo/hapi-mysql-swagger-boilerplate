@@ -1,6 +1,11 @@
 # hapi-mysql-swagger-boilerplate
 
-A boilerplate using Hapi
+一个使用 Hapi 的简单样板
+
+## 语言
+
+- 中文
+- [English](README.md)
 
 ## 项目依赖
 
